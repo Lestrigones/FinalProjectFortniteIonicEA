@@ -1,0 +1,336 @@
+<ion-header>
+    <ion-toolbar color="dark">
+        <ion-title style="padding-left: 30px; font-weight: bold">
+            Challenges
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+<ion-searchbar color="dark" (ionChange)="buscar($event)"></ion-searchbar>
+
+
+<ion-content padding>
+
+    <ion-grid fixed>
+        <!-- <ion-row>
+            <ion-col *ngFor="let c of [1,1,1,1,1]; let i = index">
+                {{i+1}}
+            </ion-col>
+        </ion-row> -->
+        <ion-row>
+            <ion-col size="12" size-leg="3" size-md="4" size-sm="6">
+                <ion-card>
+                    <ion-img src="assets/guias/fortnite10.jpg/"></ion-img>
+                    <ion-card-header>
+                        <ion-card-subtitle>
+
+                        </ion-card-subtitle>
+                        <ion-card-title>
+                            <ion-label style="font-weight: bold; color: rgb(18, 18, 19)">Week 1</ion-label>
+
+                        </ion-card-title>
+                        <ion-card-content>
+                            <p>
+                                <ion-label style="font-weight: bold; color: rgb(85, 7, 85)">Challenge: Ride the Slip Stream around Neo Tilted</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: rgb(2, 0, 128)">Total: 1</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: green">stars: 2</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: red">Difficulty: Normal</ion-label>
+                            </p>
+                        </ion-card-content>
+                        <ion-card-content>
+                            <p>
+                                <ion-label style="font-weight: bold; color: rgb(85, 7, 85)">Challenge: Visit all Sky Platforms</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: rgb(2, 0, 128)">Total: 7</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: green">stars: 5</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: red">Difficulty: Normal</ion-label>
+                            </p>
+                        </ion-card-content>
+                        <ion-card-content>
+                            <p>
+                                <ion-label style="font-weight: bold; color: rgb(85, 7, 85)">Challenge: Scoped Weapon Elimination</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: rgb(2, 0, 128)">Total: 200</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: green">stars: 10</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: red">Difficulty: Hard</ion-label>
+                            </p>
+                        </ion-card-content>
+                    </ion-card-header>
+                </ion-card>
+            </ion-col>
+
+            <ion-col size="12" size-leg="3" size-md="4" size-sm="6">
+                <ion-card>
+                    <ion-img src="assets/guias/fortnite10.jpg/"></ion-img>
+                    <ion-card-header>
+                        <ion-card-subtitle>
+
+                        </ion-card-subtitle>
+                        <ion-card-title>
+                            <ion-label style="font-weight: bold; color: rgb(18, 18, 19)">Week 2</ion-label>
+
+                        </ion-card-title>
+                        <ion-card-content>
+                            <p>
+                                <ion-label style="font-weight: bold; color: rgb(85, 7, 85)">Challenge:Launch off of Air Vents in different matches </ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: rgb(2, 0, 128)">Total: 5</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: green">stars: 5</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: red">Difficulty: Normal</ion-label>
+                            </p>
+                        </ion-card-content>
+                        <ion-card-content>
+                            <p>
+                                <ion-label style="font-weight: bold; color: rgb(85, 7, 85)">Challenge: Deal damage with Pistols to opponents</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: rgb(2, 0, 128)">Total: 500</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: green">stars: 5</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: red">Difficulty: normal</ion-label>
+                            </p>
+                        </ion-card-content>
+                        <ion-card-content>
+                            <p>
+                                <ion-label style="font-weight: bold; color: rgb(85, 7, 85)">Challenge: Eliminate an opponent from at least 50m away</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: rgb(2, 0, 128)">Total: 1</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: green">stars: 3</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: red">Difficulty: Normal</ion-label>
+                            </p>
+                        </ion-card-content>
+                    </ion-card-header>
+                </ion-card>
+            </ion-col>
+
+            <ion-col size="12" size-leg="3" size-md="4" size-sm="6">
+                <ion-card>
+                    <ion-img src="assets/guias/fortnite10.jpg/"></ion-img>
+                    <ion-card-header>
+                        <ion-card-subtitle>
+
+                        </ion-card-subtitle>
+                        <ion-card-title>
+                            <ion-label style="font-weight: bold; color: rgb(18, 18, 19)">Week 3</ion-label>
+
+                        </ion-card-title>
+                        <ion-card-content>
+                            <p>
+                                <ion-label style="font-weight: bold; color: rgb(85, 7, 85)">Challenge: Search chests at Lonely Lodge or Polar Peak</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: rgb(2, 0, 128)">Total: 7</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: green">stars: 5</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: red">Difficulty: Normal</ion-label>
+                            </p>
+                        </ion-card-content>
+                        <ion-card-content>
+                            <p>
+                                <ion-label style="font-weight: bold; color: rgb(85, 7, 85)">Challenge: Land a trick with a hoverboard </ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: rgb(2, 0, 128)">Total: 1</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: green">stars: 5</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: red">Difficulty: Normal</ion-label>
+                            </p>
+                        </ion-card-content>
+                        <ion-card-content>
+                            <p>
+                                <ion-label style="font-weight: bold; color: rgb(85, 7, 85)">Challenge:Explosive weapon elimination </ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: rgb(2, 0, 128)">Total: 200</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: green">stars: 10</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: red">Difficulty: Hard</ion-label>
+                            </p>
+                        </ion-card-content>
+                    </ion-card-header>
+                </ion-card>
+            </ion-col>
+
+
+            <ion-col size="12" size-leg="3" size-md="4" size-sm="6">
+                <ion-card>
+                    <ion-img src="assets/guias/fortnite10.jpg/"></ion-img>
+                    <ion-card-header>
+                        <ion-card-subtitle>
+
+                        </ion-card-subtitle>
+                        <ion-card-title>
+                            <ion-label style="font-weight: bold; color: rgb(18, 18, 19)">Week 4</ion-label>
+
+                        </ion-card-title>
+                        <ion-card-content>
+                            <p>
+                                <ion-label style="font-weight: bold; color: rgb(85, 7, 85)">Challenge: Destroy a Loot Carrier in different matches</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: rgb(2, 0, 128)">Total: 3</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: green">stars: 5</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: red">Difficulty: Hard</ion-label>
+                            </p>
+                        </ion-card-content>
+                        <ion-card-content>
+                            <p>
+                                <ion-label style="font-weight: bold; color: rgb(85, 7, 85)">Challenge: Deal damage with Sniper Rifles to opponents</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: rgb(2, 0, 128)">Total: 200</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: green">stars: 5</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: red">Difficulty: Hard</ion-label>
+                            </p>
+                        </ion-card-content>
+                        <ion-card-content>
+                            <p>
+                                <ion-label style="font-weight: bold; color: rgb(85, 7, 85)">Challenge: Legendary weapon eliminations</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: rgb(2, 0, 128)">Total: 3</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: green">stars: 10</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: red">Difficulty: Hard</ion-label>
+                            </p>
+                        </ion-card-content>
+
+
+                    </ion-card-header>
+                </ion-card>
+            </ion-col>
+
+            <ion-col size="12" size-leg="3" size-md="4" size-sm="6">
+                <ion-card>
+                    <ion-img src="assets/guias/fortnite10.jpg/"></ion-img>
+                    <ion-card-header>
+                        <ion-card-subtitle>
+
+                        </ion-card-subtitle>
+                        <ion-card-title>
+                            <ion-label style="font-weight: bold; color: rgb(18, 18, 19)">Week 5</ion-label>
+
+                        </ion-card-title>
+                        <ion-card-content>
+                            <p>
+                                <ion-label style="font-weight: bold; color: rgb(85, 7, 85)">Challenge: Deal damage with Grenades, Dynamite, or Stink Bombs</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: rgb(2, 0, 128)">Total: 200</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: green">stars: 5</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: red">Difficulty: Normal</ion-label>
+                            </p>
+                        </ion-card-content>
+                        <ion-card-content>
+                            <p>
+                                <ion-label style="font-weight: bold; color: rgb(85, 7, 85)">Challenge: Search chests at Salty Springs or Frosty Flights</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: rgb(2, 0, 128)">Total: 5</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: green">stars: 5</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: red">Difficulty: Normal</ion-label>
+                            </p>
+                        </ion-card-content>
+                        <ion-card-content>
+                            <p>
+                                <ion-label style="font-weight: bold; color: rgb(85, 7, 85)">Challenge: Eliminate opponents at Sky Platforms</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: rgb(2, 0, 128)">Total: 2</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: green">stars: 10</ion-label>
+                            </p>
+                            <p>
+                                <ion-label style="font-weight: bold; color: red">Difficulty: Hard</ion-label>
+                            </p>
+                        </ion-card-content>
+                    </ion-card-header>
+                </ion-card>
+            </ion-col>
+
+        </ion-row>
+    </ion-grid>
+
+
+</ion-content>
+
+
+
+
+
+
+
+<!-- <ion-item class="weeks-container" *ngFor="let week of weeks; let i = index">
+    <div class="challenges-container">
+        <ion-button shape="round" color="tertiary" type="button" class="btn btn-secondary week-btn" (click)="toogleChallenges()">Week {{i + 1}}
+            <ion-icon slot="icon-only" name="information-circle"></ion-icon>
+        </ion-button>
+        <span *ngIf="renderChallenges === true">
+                    <span *ngFor="let ch of week" >
+                            <ion-label style="font-weight: bold">Challenge: {{ch.challenge}}</ion-label>
+                            <ion-label style="font-weight: bold; color: green">Difficulty: {{ch.difficulty}}</ion-label>
+                            <ion-label style="font-weight: bold; color: red">Stars: {{ch.stars}}</ion-label>
+                      
+                    </span>
+
+
+        </span>
+    </div>
+</ion-item> -->

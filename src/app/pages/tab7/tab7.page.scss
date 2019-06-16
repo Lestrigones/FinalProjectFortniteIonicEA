@@ -1,0 +1,112 @@
+.home-search-bar {
+    background-image: url("https://bombanoise.com/wp-content/uploads/2018/04/Fortnite_class_characters.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+}
+
+.search-player {
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 22%;
+}
+
+input {
+    box-shadow: 0px 0px 177px -4px rgba(255, 255, 255, 1);
+    text-align: center;
+}
+
+.home-container {
+    display: grid;
+}
+
+.store-title {
+    background: #DA81F5;
+    margin-bottom: 10px;
+    display: flex;
+    align-content: space-between;
+    font-family: 'Luckiest Guy', cursive;
+    border-radius: 5px;
+    padding: 0 0 0 0;
+    border-color: #BE81F7;
+}
+
+h2 {
+    margin: 5px 0 5px 15px;
+}
+
+.polygon {
+    background: #9A2EFE;
+    clip-path: polygon(100% 0%, 100% 100%, 54% 40%, 56% 67.5%, 0% 0%);
+    align-self: stretch;
+    padding-left: 500px;
+    border-radius: 5px;
+    margin-left: auto;
+}
+
+.floating-image {
+    float: left;
+    height: 30%;
+    width: 30%;
+}
+
+.news-header {
+    color: white;
+}
+
+.news-splitter {
+    background: #DA81F5;
+    margin-bottom: 30px;
+    width: 50%;
+    display: flex;
+    align-content: space-between;
+    font-family: 'Luckiest Guy', cursive;
+    border-radius: 5px;
+    padding: 0 0 0 0;
+    border-color: #BE81F7;
+    height: 3px;
+}
+
+.news-container {}
+
+.news-card {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #252525;
+    box-shadow: 6px 10px 5px 0 rgba(255, 255, 255, 0.1);
+    margin-bottom: 27px;
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 1063px;
+}
+
+.news-info {
+    font-family: "Roboto", sans-serif;
+    border: 5px solid #252525;
+    box-shadow: inset -3px -20px 34px 4px rgba(255, 255, 255, 0.75);
+    box-shadow: inset -3px -9px 31px 5px rgba(255, 255, 255, 0.75);
+}
+
+img {
+    margin-right: 25px;
+}
+
+.news-title {
+    margin-top: 10px;
+    font-family: 'Luckiest Guy', cursive;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.news-subtitle {
+    font-family: 'Luckiest Guy', cursive;
+    color: whitesmoke;
+    max-height: 5rem;
+    letter-spacing: 1px;
+    overflow: hidden;
+}
+
+a:hover path {
+    fill: #BE81F7
+}

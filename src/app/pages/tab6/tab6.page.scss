@@ -1,0 +1,21 @@
+.card-background {
+    icon-card {
+        position: relative;
+        text-align: center;
+    }
+    .card-tittle {
+        position: absolute;
+        top: 36%;
+        font-size: 3.0em;
+        width: 100%;
+        font-weight: bold;
+        color: #fff;
+    }
+    .card.subtittle {
+        font-size: 1.0em;
+        position: absolute;
+        top: 52%;
+        font-weight: bold;
+        color: #fff;
+    }
+}
